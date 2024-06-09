@@ -1,7 +1,7 @@
 {
   "name": "@ondeliverys/eslint-config",
   "description": "ESLint config for OnDeliverys projects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {},
   "author": "OnDeliverys, Matheus Santos Ferreira Ribeiro",

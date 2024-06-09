@@ -61,23 +61,6 @@ Inside `.eslintrc.json`:
 }
 ```
 
-
-### Next.js
-
-Install dependencies:
-
-```bash
-npm i -D eslint @ondeliverys/eslint-config
-```
-
-Inside `.eslintrc.json`:
-
-```json
-{
-  "extends": "@ondeliverys/eslint-config/next"
-}
-```
-
 ### Node.js
 
 Install dependencies:
