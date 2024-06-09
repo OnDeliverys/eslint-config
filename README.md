@@ -29,7 +29,7 @@ Inside `.eslintrc.json`:
 }
 ```
 
-### React (without Next.js)
+### Electron
 
 Install dependencies:
 
@@ -41,7 +41,40 @@ Inside `.eslintrc.json`:
 
 ```json
 {
-  "extends": "@ondeliverys/eslint-config/react"
+  "extends": "@ondeliverys/eslint-config/electron"
+}
+```
+
+### Nest.js
+
+Install dependencies:
+
+```bash
+npm i -D eslint @ondeliverys/eslint-config
+```
+
+Inside `.eslintrc.json`:
+
+```json
+{
+  "extends": "@ondeliverys/eslint-config/nest"
+}
+```
+
+
+### Next.js
+
+Install dependencies:
+
+```bash
+npm i -D eslint @ondeliverys/eslint-config
+```
+
+Inside `.eslintrc.json`:
+
+```json
+{
+  "extends": "@ondeliverys/eslint-config/next"
 }
 ```
 
@@ -58,6 +91,24 @@ Inside `.eslintrc.json`:
 ```json
 {
   "extends": "@ondeliverys/eslint-config/node"
+}
+```
+
+### React Native
+
+### React Native
+
+Install dependencies:
+
+```bash
+npm i -D eslint @ondeliverys/eslint-config
+```
+
+Inside `.eslintrc.json`:
+
+```json
+{
+  "extends": "@ondeliverys/eslint-config/reactnative"
 }
 ```
 
