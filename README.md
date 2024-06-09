@@ -76,9 +76,6 @@ Inside `.eslintrc.json`:
   "extends": "@ondeliverys/eslint-config/node"
 }
 ```
-
-### React Native
-
 ### React Native
 
 Install dependencies:
